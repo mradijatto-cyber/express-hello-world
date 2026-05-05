@@ -1,16 +1,14 @@
 {
-  "name": "express-hello-world",
+  "name": "ahead-auth",
   "version": "1.0.0",
-  "description": "Express Hello World on Render",
   "main": "app.js",
-  "repository": "https://github.com/render-examples/express-hello-world",
-  "author": "Render Developers",
-  "license": "MIT",
-  "private": false,
   "scripts": {
     "start": "node app.js"
   },
   "dependencies": {
-    "express": "^5.0.0"
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "otplib": "^12.0.1",
+    "qrcode": "^1.5.3"
   }
 }
